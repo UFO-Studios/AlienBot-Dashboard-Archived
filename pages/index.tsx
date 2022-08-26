@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <h1>Hello there!</h1>
       <h2>The AlienBot Dashboard is still in progress.</h2>
-      <h3>But here are some links:</h3>
+      <h3 className="grey">But here are some links:</h3>
       <ul>
         <li>
           <Link href="https://discord.com/oauth2/authorize?client_id=800089810525356072&permissions=1103272991798&scope=bot%20applications.commands">
