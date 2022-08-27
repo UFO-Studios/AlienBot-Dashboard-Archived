@@ -3,8 +3,9 @@ const path = require("path");
 const app = express();
 const port = 3000;
 
+// add another one of these for another route in the website :D
 app.get("/", (req, res) => {
-  res.sendFile("index.html");
+  res.sendFile(path.join(__dirname, "./index.html"));
 });
 
 app.listen(port, () => {
