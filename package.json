@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/UFO-Studios/AlienBotDashboard.git",
-  "author": "kingerious <mohammedsiddiqui2009@gmail.com>",
+  "author": "kingerious",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.1"
