@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlienBot Dashboard</title>
+    <div class="geeks"></div>
+
 </head>
 <body>
     <h1>Admin Dashboard</h1>
+    <style>
+        body {
+            background: rgb(255, 255, 255);
+        }
+        h1 {
+            display:flex;
+            justify-content: center;
+            color: rgb(10, 10, 10);
+            font-size: 40px;                   
+            }
+ 
+        .geeks {
+            width:400px;
+            height:250px;
+            background: rgb(124, 120, 120);
+            position: absolute;
+            top:16%;
+            left:35%;
+            border-radius: 20px;
+        }
+ 
+        .geeks::after {
+            content: "";
+            position: absolute;
+            bottom: -30px;
+            background: rgb(43, 42, 42);
+            width: 90%;
+            height:4px;
+            left:3%;
+            border-radius:50%;
+            filter: blur(3px);
+        }
+    </style>
 </body>
+</head>
 </html>
