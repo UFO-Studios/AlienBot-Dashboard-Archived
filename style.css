@@ -20,6 +20,17 @@ h1 {
     border-radius: 20px;
 }
 
+.ram1 {
+    width:400px;
+    height:250px;
+    float: right; 
+    background: rgb(9, 201, 57);
+    /*position: absolute;
+    top:16%;
+    left:35%;*/
+    border-radius: 20px;
+}
+
 .cpu1::after {
     content: "";
     position: absolute;
@@ -31,16 +42,7 @@ h1 {
     border-radius:50%;
     filter: blur(3px);
 }
-.ram1 {
-    width:400px;
-    height:250px;
-    float: left; 
-    background: rgb(9, 201, 57);
-    /*position: absolute;
-    top:16%;
-    left:35%;*/
-    border-radius: 20px;
-}
+
 
 .ram1::after {
     content: "";
