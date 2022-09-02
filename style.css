@@ -1,0 +1,55 @@
+body {
+    background: rgb(255, 255, 255);
+}
+h1 {
+    display:flex;
+    justify-content: center;
+    color: rgb(10, 10, 10);
+    font-size: 40px;                   
+    }
+
+.cpu1 {
+    width:400px;
+    height:250px;
+    /*float: left;*/
+    margin-right: 20px;
+    background: rgb(134, 26, 26);
+    position: absolute;
+    top:16%;
+    left:35%;
+    border-radius: 20px;
+}
+
+.cpu1::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    background: rgb(177, 41, 41);
+    width: 90%;
+    height:4px;
+    left:3%;
+    border-radius:50%;
+    filter: blur(3px);
+}
+.ram1 {
+    width:400px;
+    height:250px;
+    /*float: right;*/
+    background: rgb(9, 201, 57);
+    position: absolute;
+    top:16%;
+    left:35%;
+    border-radius: 20px;
+}
+
+.ram1::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    background: rgb(43, 42, 42);
+    width: 90%;
+    height:4px;
+    left:3%;
+    border-radius:50%;
+    filter: blur(3px);
+}
