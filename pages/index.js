@@ -7,9 +7,10 @@
 
 export default function HomePage() {
   <main>
-    <LineChart />
+    <LineChart /> 
   </main>
 }
+//comment
 
 import LineChart from "./lineChart"
 
